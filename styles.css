@@ -36,22 +36,75 @@ a {
     font-size: 18px;
 }
 
+.hero {
+    background-color: #1f2937;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin-bottom: 20px;
 }
 
-.hero {
-    background-color: #1f2937;
-}
-
-p {
+.hero p {
     color: #E5E7EB;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
-button {
+.hero button {
     background-color: #3882f6;
     color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 300px; 
+    height: auto;
+    background-color: #ccc; 
+}
+
+.info {
+    padding: 50px 200px;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.info-boxes .box-wrapper {
+    flex: 1 1 100px; /* Flex-grow, flex-shrink, and base-width */
+    max-width: 22%; /* To ensure the boxes don’t get too wide */
+    text-align: center;
+}
+
+.info-boxes .box {
+    width: 100%; 
+    padding-top: 100%; /* This creates a square by making height equal to width */
+    background-color: #f4f4f4;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    position: relative;
 }

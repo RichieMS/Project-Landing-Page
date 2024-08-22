@@ -129,3 +129,55 @@ a {
     margin-top: 20px;
     text-align: right;
 }
+
+.cta-section {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    padding: 50px 0; /* Padding to ensure space above and below */
+}
+
+.cta-container {
+    background-color: #3882f6; /* Blue background for the container */
+    padding: 40px 300px; /* Padding inside the container */
+    max-width: 600px; /* Max width of the container */
+    text-align: left; /* Left-align the text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cta-text {
+    font-size: 24px;
+    color: #F9FAF8; /* White text */
+    margin: 0;
+    margin-bottom: 15px; /* Space between text and subtext */
+}
+
+.cta-subtext {
+    font-size: 18px;
+    color: #F9FAF8; /* White subtext */
+    margin-bottom: 20px; /* Space between subtext and button */
+}
+
+.cta-button {
+    background-color: #FFFFFF; /* White background for the button */
+    color: #3882f6; /* Blue text color */
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #3882f6; /* Blue border to match the text */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937; /* Same background color as the header */
+    color: #E5E7EB; /* Light text color */
+    text-align: center;
+    padding: 20px 0; /* Padding to give some space around the text */
+    font-size: 14px;
+    margin-top: auto; /* Push the footer to the bottom of the page */
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+}
